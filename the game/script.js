@@ -1,20 +1,62 @@
 var antwoord = prompt('hoe heet een zes hoek? hexagon, pentagon, vierkant, rondje');
 
 if(antwoord == 'hexagon'){
-    antwoord = prompt('welke kleur is de zon? orange, rood, wit, geel');
+    antwoord = prompt('welke kleur heeft de zon? orange, rood, wit, geel');
     document.write('Vraag 1: Goed!');
     if(antwoord == 'orange'){
         antwoord = prompt('welke kleur zijn bladeren');
         document.write('<br>' + 'Vraag 2: Goed!');
         if(antwoord == 'groen'){
-
+            antwoord = prompt('welke kleur heeft een stam');
+            document.write('<br>' + 'Vraag 3: Goed!');
+            if(antwoord == 'bruin'){
+                antwoord = prompt('welke kleur heeft een witte duif');
+                document.write('<br>' + 'Vraag 4: Goed!');
+                if(antwoord == 'wit'){
+                    antwoord = prompt('welke kleur heeft een rode beker');
+                    document.write('<br>' + 'Vraag 5: Goed!');
+                    if(antwoord == 'rood'){
+                        antwoord = prompt('welke kleur heeft een groene appel');
+                        document.write('<br>' + 'Vraag 6: Goed!');
+                        if(antwoord == 'groen'){
+                            antwoord = prompt('welke kleur heeft een blauwe druif');
+                            document.write('<br>' + 'Vraag 7: Goed!');
+                            if(antwoord == 'blauw'){
+                                antwoord = prompt('welke kleur heeft een zwarte laptop');
+                                document.write('<br>' + 'Vraag 8: Goed!');
+                                if(antwoord == 'zwart'){
+                                    antwoord = prompt('welke kleur heeft een witte muur');
+                                    document.write('<br>' + 'Vraag 9: Goed!');
+                                    if(antwoord == 'wit'){
+                                        document.write('<br>' + 'Vraag 10: Goed!');
+                                    }else{
+                                        document.write('<br>' + 'GAME OVER')
+                                    }
+                                }else{
+                                    document.write('<br>' + 'GAME OVER');
+                                }
+                            }else{
+                                document.write('<br>'+ 'GAME OVER');
+                            }
+                        }else{
+                            document.write('<br>' + 'GAME OVER');
+                        }
+                    }else{
+                        document.write('<br>' + 'GAME OVER');
+                    }
+                }else{
+                    document.write('<br>' + 'GAME OVER');
+                }
+            }else{
+                document.write('<br>' + 'GAME OVER');
+            }
         }else{
-            document.write('GAME OVER!');
+            document.write('<br>' + 'GAME OVER');
         }
     }else{
-        document.write('GAME OVER!');
+        document.write('<br>' + 'GAME OVER');
     }
 }else{
-    document.write('GAME OVER');
+    document.write('<br>' + 'GAME OVER');
 
 }
