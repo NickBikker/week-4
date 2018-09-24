@@ -1,3 +1,5 @@
+alert('Je krijgt een aantal vragen. aan het eind van de quiz kan je je punten zien en hoeveel vragen je goed heb');
+
 var antwoord = prompt('hoe heet een zes hoek? hexagon, pentagon, vierkant, rondje');
 
 if(antwoord == 'hexagon'){
@@ -28,35 +30,35 @@ if(antwoord == 'hexagon'){
                                     antwoord = prompt('welke kleur heeft een witte muur');
                                     document.write('<br>' + 'Vraag 9: Goed!');
                                     if(antwoord == 'wit'){
-                                        document.write('<br>' + 'Vraag 10: Goed!');
+                                        document.write('<br>' + 'Vraag 10: Goed!' + '<br>' + 'Gewonnen!');
                                     }else{
-                                        document.write('<br>' + 'GAME OVER')
+                                        document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:90')
                                     }
                                 }else{
-                                    document.write('<br>' + 'GAME OVER');
+                                    document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:80');
                                 }
                             }else{
-                                document.write('<br>'+ 'GAME OVER');
+                                document.write('<br>'+ 'GAME OVER' + '<br>' + '<br>' + 'Punten:70');
                             }
                         }else{
-                            document.write('<br>' + 'GAME OVER');
+                            document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:60');
                         }
                     }else{
-                        document.write('<br>' + 'GAME OVER');
+                        document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:50');
                     }
                 }else{
-                    document.write('<br>' + 'GAME OVER');
+                    document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:40');
                 }
             }else{
-                document.write('<br>' + 'GAME OVER');
+                document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:30');
             }
         }else{
-            document.write('<br>' + 'GAME OVER');
+            document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:20');
         }
     }else{
-        document.write('<br>' + 'GAME OVER');
+        document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:10!');
     }
 }else{
-    document.write('<br>' + 'GAME OVER');
+    document.write('<br>' + 'GAME OVER' + '<br>' + '<br>' + 'Punten:0');
 
 }
